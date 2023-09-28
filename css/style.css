@@ -36,11 +36,11 @@ h4,
 h5,
 h6,
 p {
-  margin: 0; /*новододане-поправка*/
+  margin: 0; 
 }
 ul {
   margin: 0;
-  padding-left: 0; /*новододане-поправка*/
+  padding-left: 0; 
 }
 /* header */
 .main-header {
@@ -61,7 +61,7 @@ ul {
   align-items: center;
 }
 .logotype {
-  margin-right: 76px; /*новододане-поправка*/
+  margin-right: 76px; 
 }
 .navigation-menu {
   display: flex;
@@ -121,7 +121,6 @@ img {
   color: white;
   background-color: #404bbf;
   border: 1px solid transparent;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .list-preview {
   display: flex;
@@ -206,16 +205,11 @@ img {
   position: relative;
   font-family:"Roboto", sans-serif ;
   color: rgba(46, 47, 66, 1);
-  /* color:#404BBF; */
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 
-  /* transition-property: color;
-  transition-duration: 0ms;
-  transition-timing-function: ease;
-  transition-delay: 0ms; */
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
  
 }
@@ -253,7 +247,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .link-contact:hover,
 .link-contact:focus {
   color: #404bbf;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 /* section-title */
 .section-title {
@@ -326,7 +319,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button-style:hover,
 .button-style:focus{
-  /* box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10); */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .button,
@@ -438,7 +430,6 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .customers-list {
   display: flex;
   list-style: none;
-  /* justify-content: center; */
   gap: 24px;
 }
 .customers-item{
@@ -452,15 +443,12 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   justify-content: center;
   width: 100%;
   height: 100%;
-  /* fill: var(--customers-color-icon); */
   color: var(--customers-color-icon);
   border-radius: 4px;
   border: 1px solid  #8E8F99;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-/* .customers-item:not(:last-child){
-  margin-right: 24px;
-} */
+
 .customers-link .customers-logo {
   fill: currentColor;
   max-width: 168px;
@@ -469,12 +457,9 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .customers-link:focus{
   color: #404BBF;
   border-color: #404BBF;
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 
  
-  /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
-
 /* section-footer*/
 .about {  
   background-color: #2e2f42;
@@ -508,12 +493,8 @@ transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   gap: 16px;
 }
 .footer-item{
-  /* display: flex;
-  padding: 8px;
-  border-radius: 50%; */
   width: 40px;
   height: 40px;
-  /* background-color: var(--logotype-color); */
 }
 .socials-link{
 width: 100%;
@@ -532,7 +513,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .footer-item .socials-link:hover,
 .footer-item .socials-link:focus{
  background-color:#31D0AA;
- /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
 }
 .text-about {
   font-family: var(--brand-text);
@@ -625,15 +605,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   height: 100%;
   background-color: var(--navy-blue-modal);
   
-  /* transition: opacity 200ms linear, visibility 200ms linear; */
   transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* transition-delay: 0ms; */
 }
 .backdrop.is-hidden{
   opacity: 0;
   visibility:hidden;
   pointer-events: none;
-  /* transition-delay: 200ms; */
 }
 .modal-text{
   font-weight: 500;
@@ -649,24 +626,19 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) scale(1);
-  /* transform: translateX(-50%) translateY(-50%) scale(1); */
-  /* transform: translateX(-50%) translateY(-50%); */
   width: 408px;
   min-height: 584px;
-  /* background-color: var(--bckg-modal-color); */
   background: var(--bckg-modal-color);
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   
-  /* opacity: 1; */
   
-  /* transition: transform 300ms cubic-bezier(0.59, -0.21, 0, 1.48) 200ms, opacity 300ms cubic-bezier(0.59, -0.21, 0, 1.48) 200ms; */
   padding: 72px 24px 24px 24px;
 }
 .backdrop.is-hidden .modal{
   opacity: 0;
-  /* transform: translateX(-50%) translateY(-70%) scale(0.4); */
+  
   transform: translateX(-50%) translateY(-70%);
   transition-delay: 0s;
 }
@@ -686,19 +658,16 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   justify-content: center;
 
-  /* transition: color var(--brand-color); */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 .modal-btn:hover,
 .modal-btn:focus{
-  /* color: #2E2F42; */
   background-color: #404BBF;
   border: none;
   fill:#ffffff;
 }
 .modal-btn-icon{
-  /* stroke:currentColor; */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-form{
@@ -759,11 +728,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   resize: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.textarea-form:focus{       /* no focus*/
+.textarea-form:focus{
   border-color: #4D5AE5;
 }
 .modal-form-box{
   margin-bottom: 24px;
+  
 }
 .label-text{
   display: block;
@@ -771,6 +741,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: var(--customers-color-icon);
+  
 }
 .span-form{
   width: 16px;
@@ -782,20 +753,21 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   align-items: center;
   justify-content: center;
   fill: transparent;
+  margin-right: 8px;
 }
 input[type="checkbox"]:checked + .label-text > .span-form {    
   background-color: #404BBF;
   border: none;
   fill:var(--brand-background-color-button);
 }
-/* input[type="checkbox"]:checked + .label-text > .span-form > .span-form-icon {     
-  fill:var(--brand-background-color-button);
-} */
+
 .form-link{
   color:#4d5ae5;
+  margin-left: 6px;
 }
 .btn-form{
   display: block;
+  margin: 0 auto;
   min-width: 169px;
   height: 56px;
   font-family:"Roboto", sans-serif;
@@ -809,163 +781,4 @@ input[type="checkbox"]:checked + .label-text > .span-form {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  
-
 }
-/*
-  |============================
-  | //
-    Властивість background-image задає фонове зображення елемента
-    background-image: url(шлях до зображення);
-    //
-      Властивість background-repeat керує повторенням фонового зображення
-      background-repeat: repeat | repeat-x | repeat-y | no-repeat
-      хорошим тоном вважається задати властивість background-repeat зі значенням no-repeat
-    //
-      Властивість background-position керує положенням фонового зображення відносно рамки елемента
-      У якості значення можна використовувати абсолютні (px) чи відносні (%) одиниці, і навіть ключові слова (top, bottom, right, left, center).
-      backrgound-position: right 30px bottom 20px;
-    //
-      Властивість background-size
-      Ця властивість дозволяє коригувати розміри зображення шляхом налаштування необхідної ширини та висоти
-      background-size: auto | значення | cover | contain
-      cover — за рахунок обрізання зайвого.
-      contain — за рахунок утворення порожнього простору в контейнері.
-    //
-      Градієнт — перехід від одного кольору до іншого. У CSS градієнт — це фонове зображення, тому він задається як значення властивості background-image.
-      background-image: linear-gradient(
-	              <напрямок>, 
-	              <колір-1>, 
-	              <колір-2>, 
-	              <колір-3>, 
-	              ...
-              )
-      Напрямок градієнта задається ключовими словами to top, to right, to bottom, to left і їх комбінаціями. Якщо напрямок не вказано, використовується значення за замовчуванням — зверху-вниз (to bottom).
-       У разі коли напрямок задано парою ключових слів, наприклад, to top left, початкова точка градієнта буде розташована в правому нижньому кутку, тобто протилежному.
-      Напрямок також можна задати кутом нахилу в градусах — одиниця deg. Значення 0deg є аналогічним to top. Збільшення кута повертає напрямок лінії градієнта. Лінія градієнта — це пряма, що проходить через центр блоку і вздовж якої розподіляються кольори за годинниковою стрілкою.
-    //  
-      Властивість background — це складена властивість для одночасного встановлення значень всіх розглянутих властивостей.
-      background: background-color background-image background-repeat background-position background-attachment background-size
-    //
-    Властивість box-shadow
-    Тіні бувають зовнішні та внутрішні, розмиті та плоскі, одинарні та багатошарові.
-    box-shadow: <x-offset> <y-offset> <blur> <spread> <color>
-    x-offset — горизонтальне зміщення. Позитивне значення зміщує тінь праворуч від блоку, негативне – ліворуч. Обов'язкове значення.
-    y-offset — вертикальне зміщення. Позитивне значення зміщує тінь вниз, негативне - вгору. Обов'язкове значення.
-    blur — радіус розмиття. Чим більше значення, тим сильніше розмита тінь. Необов'язкове значення.
-    spread — радіус поширення. Позитивне значення збільшує тінь, негативне — зменшує. Необов'язкове значення.
-    color — колір тіні. Можна використовувати будь-який формат запису кольору. Необов'язкове значення.
-    На один елемент можна додати кілька тіней, вказавши їх значення через кому.
-    box-shadow: <x-offset> <y-offset> <blur> <spread> <color>,
-            <x-offset> <y-offset> <blur> <spread> <color>,
-            <x-offset> <y-offset> <blur> <spread> <color>,
-    //
-      У CSS можна динамічно змінювати деякі параметри вбудованого векторного зображення, наприклад, колір. Властивість fill керує кольором заливки. Колір можна задавати у будь-якому зручному форматі.
-      SVG-спрайт — це техніка, яку застосовують у більшості випадків під час роботи з векторною графікою.
-
-      Усі векторні іконки збираються до одного файлу.
-      Файл спрайту кешується браузером і не буде завантажуватися при повторному відвідуванні.
-      Іконкам із спрайту можна змінювати колір та інші характеристики через CSS.
-    //
-      ::before - створює псевдоелемент перед всім вмістом елемента (на початку).
-      ::after - створює псевдоелемент після всього вмісту елемента (наприкінці).
-      Псевдоклас :hover
-      Для того, щоб змінити стилі псевдоелемента при події на батьківському елементі, наприклад, при наведенні миші,
-      необхідно використовувати наступний селектор
-    //
-      Властивість position
-      Якщо треба розташувати один елемент поверх іншого, використовується властивість position. 
-      Вона дозволяє буквально підняти елемент і розмістити його поверх будь-якого іншого.
-      position: static | relative | absolute | fixed | sticky 
-      За замовчуванням встановлено значення static.
-      Щоб вказати положення елемента, потрібно використати властивості top, left, bottom або right, які не застосовні до елементів без position.
-      Відносне позиціонування
-      При відносному позиціонуванні елемент залишається у потоці сторінки, тобто сусідні елементи не займають його місце.
-      Проте візуально елемент можна змістити щодо його первісного положення. При цьому він може перекривати сусідів.
-      Абсолютне позиціонування дає зовсім інші результати порівняно з відносним.
-      При абсолютному позиціонуванні елемент вилучається з потоку сторінки, тобто сусідні елементи займають його місце.
-      За допомогою властивостей top, left, bottom і right можна налаштувати положення елемента, але треба обов’язково враховувати, звідки ведеться відлік значень цих властивостей.
-      Щоб визначити точку відліку, браузер шукає найближчий елемент-предок, у якого властивість position має будь-яке значення крім static. Якщо такого предка не виявиться, то відлік буде починатися від рамки елемента <body>.
-      При фіксованому позиціонуванні елемент має значення position: fixed. Такий елемент вилучається із потоку сторінки та позиціонується відносно в'юпорту. Це створює ефект фіксації елемента у певному місці екрана під час прокручування сторінки.
-      Липке позиціонування (position: sticky) — це комбінація властивостей relative і fixed. Подивись на гіфку, на якій липке позиціонування задається елементам з літерами A і B, так відразу стане зрозуміло.
-    //
-      Властивість z-index
-      Що треба знати при використанні z-index:
-      Чим більше значення z-index всередині цього контексту, тим вище розташовується елемент.
-      Мінімальне (навіть негативне) значення z-index говорить про те, що інші елементи поза потоком будуть розташовані вище цього елементу. 
-      Якщо у двох елементів однакові значення z-index, вищим буде елемент, оголошений останнім у HTML-коді.
-    //
-      CSS-переходи дозволяють анімувати зміну значення властивостей, задавати час та керувати швидкістю цього переходу. Зміна властивостей відбувається при певній події, наприклад: :hover.
-      чотири властивості керують різними параметрами переходу.
-      ansition-property: <властивість>
-      transition-duration: <час>
-      transition-timing-function: <функція розподілу часу>
-      transition-delay: <затримка>
-      Все, що необхідно зробити для налаштування переходу, це:
-      Вказати початкові значення властивостей, що анімуються, і значення властивостей переходу.
-      Після чого при події, наприклад, :hover, задати нові значення властивостей, до яких ми хочемо анімувати елемент.
-    //  
-      Властивість transition-property задає властивості, до яких буде застосовано ефект переходу. Значенням може бути одна властивість або список властивостей через кому.
-      Значення за замовчуванням — all, тобто анімуються всі можливі властивості.
-      Якщо потрібно задати більш ніж одну властивість, то вони вказуються через кому
-    //
-      Властивість transition-duration задає проміжок часу, протягом якого має здійснитися перехід.
-      Значення властивості вказується в:
-      секундах: 2s або 0.5s
-      мілісекундах: 2000ms або 500ms
-      Якщо різні властивості мають різні значення часу переходу, всі вони перераховуються через кому.
-    //
-      Властивість transition-timing-function
-      задає функцію розподілу часу, тобто поведінку анімації.
-      Значення властивості задається через формулу Безьє, яка описує швидкість переходу властивості від одного значення до іншого за час, зазначений в transition-duration,
-      У CSS є кілька ключових слів для опису базових функцій Безьє, що часто використовуються.
-      Ключові слова:
-      ease — перехід починається повільно, швидко прискорюється, а потім знову сповільнюється в кінці.
-      linear — перехід має рівномірну швидкість.
-      ease-in — починається повільно, швидкість переходу збільшується до повного завершення переходу.
-      ease-out — починається швидко, уповільнюється протягом переходу.
-      ease-in-out — починається повільно, прискорюється, а потім знову сповільнюється.
-      За замовчуванням використовується значення ease.
-    //
-      Властивість transition-delay
-      Властивість transition-delay визначає затримку, після якої розпочинається анімація переходу. За замовчуванням встановлено значення 0s.
-      transition-delay: значення;
-    //
-      Властивість transition
-      transition: [property] [duration] [timing-function] [delay]
-      Якщо анімується кілька властивостей, то набір значень кожної з них розділяється комою.
-      Необхідно обов'язково вказати властивість та час переходу.
-      Функцію часу та затримку можна не вказувати — тоді для них буде використано значення за замовчуванням.
-      transition: background-color 500ms linear, transform 500ms ease-in-out;
-    //
-      Масштабування
-      CSS-трансформації дозволяють зміщувати, повертати елементи та змінювати їх масштаб — тобто додавати декоративні ефекти. Трансформації змінюють форму та положення елемента, не впливаючи на інші елементи сторінки. За замовчуванням трансформація відбувається відносно центру елемента.
-      Властивість transform відповідає за застосування однієї або більше трансформацій елемента.  
-      transform: none | <тип трансформації> <тип трансформації>
-      Функції scaleX(tx), scaleY(ty) і scale(tx, ty) масштабують блок по ширині та/або висоті, не впливаючи на геометрію навколишніх елементів. Якщо для scale() задано певне значення, друге буде таким самим.
-      Початковий масштаб елемента — 1.
-      Значення від 1 до 0 зменшують елемент. Значення більше ніж 1, навпаки, збільшують.
-      Наприклад, значення scale(1.25) — це 125% від початкового розміру, а scale(0.75) — 75%
-      З усіх властивостей, які можуть бути анімовані, рекомендується, по можливості, використовувати всього дві: opacity (прозорість) і transform (трансформація)
-    //
-      Функція rotate(кут) повертає елементи на задану кількість градусів (одиниця deg). Позитивні значення повертають елемент за годинниковою стрілкою, негативні — проти.
-      Значення можна передати не лише в градусах, а й в «обертах» (одиниця turn). Наприклад, rotate(0.5turn) це півоберту, аналог rotate(180deg)
-    //
-      Функції translateX(tx), translateY(ty) і translate(tx, ty) переміщають елемент у
-      горизонтальному (вісь X) та/або вертикальному (вісь Y) напрямках щодо початкового положення.
-      Позитивні значення X зміщують елемент праворуч, негативні — ліворуч.
-      Позитивні значення Y зміщують елемент вниз, негативні — вгору.
-    //
-      Декоративний оверлей
-      Зміщення та властивість overflow зі значенням hidden використовуються при створенні декоративних ефектів з появою прихованого вмісту з-за меж блоку
-    //
-      Центрування елемента
-      Абсолютно позиціонуємо елемент відносно предка.
-      Задаємо елементу властивості top і left зі значенням 50%, щоб розташувати верхній лівий кут елемента рівно по центру предка.
-      Задаємо елементу негативне зміщення (translate) по 50% висоти і ширини. Це змістить елемент вгору і вліво і відцентрує всередині предка.
-    //
-      Викривлення
-      Функції skewX(кут), skewY(кут) і skew(x-кут, y-кут) використовуються для визначення параметрів викривлення (нахилу, деформування) сторін елемента відносно координатних осей. Якщо для skew() вказано тільки одне значення, друге буде дорівнювати 0, тобто це буде аналог skewX().
-      
-  |============================
-*/
